@@ -1,4 +1,3 @@
-# Cybersecurity-Portfolio
 # Portfólio de Cibersegurança
 
 Olá! Seja bem-vindo(a) ao meu repositório de portfólio em Cibersegurança.
