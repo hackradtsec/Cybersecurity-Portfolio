@@ -15,37 +15,23 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 
 ---
 
-## Foco e Competências
+## Tipos de Vulnerabilidades Praticadas
 
-- **OWASP Top 10:** Broken Access Control (BAC) e SQL Injection (SQLi)
-- **Análise Técnica:** Interceptação e análise de tráfego HTTP/HTTPS, inspeção *client-side* (DevTools/DOM), manipulação de cookies/parâmetros de sessão e bypass de autenticação.
-- **Ferramentas Utilizadas:** Burp Suite, Browser DevTools, Git e GitHub.
-
----
-
-## Relatórios de Laboratórios (PortSwigger)
-
-### Access Control (Controle de Acesso)
-
-* 📄 **[Unprotected Admin Functionality](./laboratorios/access-control/LabPortSwingger1.md)**
-  * **Vulnerabilidade:** Acesso direto a painel administrativo desprotegido exposto publicamente via arquivo `robots.txt`.
-  * **Conceito:** Falha de controle de acesso por navegação forçada (*Forced Browsing*).
-
-* 📄 **[Unprotected Admin Functionality with Unpredictable URL](./laboratorios/access-control/LabPortSwingger2.md)**
-  * **Vulnerabilidade:** Exposição de rota administrativa imprevisível no código-fonte JavaScript no lado do cliente (*client-side leakage*).
-  * **Conceito:** Ineficácia do uso de "Segurança por Obscuridade" sem validação no servidor.
-
-* 📄 **[User Role Controlled by Request Parameter](./laboratorios/access-control/LabPortSwingger4.md)**
-  * **Vulnerabilidade:** Elevação de privilégio vertical via manipulação direta de atributo/cookie de controle (`Admin=true`).
-  * **Conceito:** Confiança indevida no lado do cliente (*client-side state management*) para controle de acesso.
-
----
+### Broken Access Control (Controle de Acesso)
+Práticas focadas na identificação de falhas de autorização e elevação de privilégios no lado do servidor e do cliente:
+* **Navegação Forçada (*Forced Browsing*):** Acesso a painéis administrativos ocultos ou sem autenticação através da análise de arquivos de configuração públicos (como `robots.txt`)[cite: 1].
+* **Vazamento de Informações no Lado do Cliente (*Client-Side Leakage*):** Descoberta de rotas e endpoints administrativos ocultos/imprevisíveis diretamente no código-fonte JavaScript enviado ao navegador[cite: 3].
+* **Manipulação de Parâmetros e Estado da Sessão (*Parameter Tampering*):** Elevação vertical de privilégios via alteração direta de atributos e cookies de controle (como `Admin=true`) mantidos de forma insegura no cliente[cite: 1].
 
 ### SQL Injection (Injeção de SQL)
+Práticas voltadas para a exploração de consultas ao banco de dados não sanitizadas:
+* **Bypass de Autenticação (*Login Bypass*):** Anulação da verificação de senha em formulários de login através da manipulação da lógica SQL e uso de caracteres de comentário (como `administrator'--`) em entradas concatenadas diretamente nas queries[cite: 2].
 
-* 📄 **[SQL Injection Allowing Login Bypass](./laboratorios/sql-injection/LabPortSwingger3.md)**
-  * **Vulnerabilidade:** Bypass do mecanismo de autenticação via injeção de SQL no campo de nome de usuário (`username`).
-  * **Conceito:** Manipulação da lógica da consulta e anulação da verificação de senha usando comentários SQL (`administrator'--`).
+---
+
+## Ferramentas
+
+* **Ferramentas:** Burp Suite (Interceptação e edição de requisições HTTP), Browser DevTools (Inspeção de DOM, Cookies e Storage), Git e GitHub.
 
 ---
 
