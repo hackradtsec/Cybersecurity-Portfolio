@@ -10,7 +10,7 @@ Olá! Seja bem-vindo(a) ao meu repositório de portfólio em Cibersegurança.
 <!-- Copie aqui o parágrafo principal da sua Carta de Apresentação -->
 Sou apaixonado(a) por Cibersegurança e venho me especializando em análise de vulnerabilidades web, teste de invasão (pentest) e boas práticas de AppSec. Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, **HackTheBox** e **TryHackMe**, documentando vetores de ataque, testes de conceito (PoC) e estratégias de remediação.
 
-**Carta de Apresentação:** (https://github.com/hackradtsec)
+**Carta de Apresentação:** https://github.com/hackradtsec/hackradtsec
 
 ---
 
