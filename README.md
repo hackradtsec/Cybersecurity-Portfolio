@@ -49,23 +49,6 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 
 ---
 
-## 📂 Estrutura das Pastas no Repositório
-
-Para facilitar a navegação, os relatórios estão organizados nas seguintes pastas:
-
-```text
-.
-├── README.md
-└── laboratorios/
-    ├── access-control/
-    │   ├── LabPortSwingger1.md
-    │   ├── LabPortSwingger2.md
-    │   └── LabPortSwingger4.md
-    └── sql-injection/
-        └── LabPortSwingger3.md
-
----
-
 ## Estrutura Padrão dos Relatórios
 
 Cada relatório neste repositório segue a estrutura de documentação profissional utilizada em auditorias e testes de invasão:
