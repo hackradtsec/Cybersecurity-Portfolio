@@ -20,8 +20,6 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 | Categoria | Ferramentas e Conceitos |
 | :--- | :--- |
 | **Testes de Invasão Web** | Burp Suite, Interceptação de Requisições, Inspeção de Cookies/Storage |
-| **Vulnerabilidades (OWASP)** | Broken Access Control (BAC), SQL Injection (SQLi), Parameter Tampering |
-| **Conceitos de Defesa** | Prepared Statements, RBAC, Validação Sever-Side, Tokens Assinados |
 | **Plataformas de Treino** | PortSwigger, Try Hack Me, Hack The Box
 
 ---
