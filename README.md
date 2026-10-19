@@ -19,13 +19,13 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 
 ### Broken Access Control (Controle de Acesso)
 Práticas focadas na identificação de falhas de autorização e elevação de privilégios no lado do servidor e do cliente:
-* **Navegação Forçada (*Forced Browsing*):** Acesso a painéis administrativos ocultos ou sem autenticação através da análise de arquivos de configuração públicos (como `robots.txt`)[cite: 1].
-* **Vazamento de Informações no Lado do Cliente (*Client-Side Leakage*):** Descoberta de rotas e endpoints administrativos ocultos/imprevisíveis diretamente no código-fonte JavaScript enviado ao navegador[cite: 3].
-* **Manipulação de Parâmetros e Estado da Sessão (*Parameter Tampering*):** Elevação vertical de privilégios via alteração direta de atributos e cookies de controle (como `Admin=true`) mantidos de forma insegura no cliente[cite: 1].
+* **Navegação Forçada (*Forced Browsing*):** Acesso a painéis administrativos ocultos ou sem autenticação através da análise de arquivos de configuração públicos (como `robots.txt`).
+* **Vazamento de Informações no Lado do Cliente (*Client-Side Leakage*):** Descoberta de rotas e endpoints administrativos ocultos/imprevisíveis diretamente no código-fonte JavaScript enviado ao navegador.
+* **Manipulação de Parâmetros e Estado da Sessão (*Parameter Tampering*):** Elevação vertical de privilégios via alteração direta de atributos e cookies de controle (como `Admin=true`) mantidos de forma insegura no cliente.
 
 ### SQL Injection (Injeção de SQL)
 Práticas voltadas para a exploração de consultas ao banco de dados não sanitizadas:
-* **Bypass de Autenticação (*Login Bypass*):** Anulação da verificação de senha em formulários de login através da manipulação da lógica SQL e uso de caracteres de comentário (como `administrator'--`) em entradas concatenadas diretamente nas queries[cite: 2].
+* **Bypass de Autenticação (*Login Bypass*):** Anulação da verificação de senha em formulários de login através da manipulação da lógica SQL e uso de caracteres de comentário (como `administrator'--`) em entradas concatenadas diretamente nas queries.
 
 ---
 
