@@ -14,12 +14,3 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 **Carta de Apresentação:** https://github.com/hackradtsec/hackradtsec
 
 ---
-
-## Conhecimentos e Ferramentas
-
-| Categoria | Ferramentas e Conceitos |
-| :--- | :--- |
-| **Testes de Invasão Web** | Burp Suite, Interceptação de Requisições, Inspeção de Cookies/Storage |
-| **Plataformas de Treino** | PortSwigger, Try Hack Me, Hack The Box
-
----
