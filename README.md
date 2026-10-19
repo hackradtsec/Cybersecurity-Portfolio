@@ -14,3 +14,13 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 **Carta de Apresentação:** https://github.com/hackradtsec/hackradtsec
 
 ---
+
+## Estrutura Padrão dos Relatórios
+
+Cada relatório neste repositório segue a estrutura de documentação profissional utilizada em auditorias e testes de invasão:
+1. **Diagnóstico da Vulnerabilidade:** Explicação teórica do problema.
+2. **Passo a Passo da Exploração (PoC):** Vetor de ataque e reprodução técnica.
+3. **Impacto no Negócio:** Riscos reais à aplicação e aos dados.
+4. **Remediação:** Como corrigir o código seguindo boas práticas de desenvolvimento seguro.
+
+---
