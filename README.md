@@ -15,6 +15,57 @@ Tenho me dedicado à resolução prática de laboratórios na **PortSwigger**, *
 
 ---
 
+## Foco e Competências
+
+- **OWASP Top 10:** Broken Access Control (BAC) e SQL Injection (SQLi)
+- **Análise Técnica:** Interceptação e análise de tráfego HTTP/HTTPS, inspeção *client-side* (DevTools/DOM), manipulação de cookies/parâmetros de sessão e bypass de autenticação.
+- **Ferramentas Utilizadas:** Burp Suite, Browser DevTools, Git e GitHub.
+
+---
+
+## Relatórios de Laboratórios (PortSwigger)
+
+### Access Control (Controle de Acesso)
+
+* 📄 **[Unprotected Admin Functionality](./laboratorios/access-control/LabPortSwingger1.md)**
+  * **Vulnerabilidade:** Acesso direto a painel administrativo desprotegido exposto publicamente via arquivo `robots.txt`.
+  * **Conceito:** Falha de controle de acesso por navegação forçada (*Forced Browsing*).
+
+* 📄 **[Unprotected Admin Functionality with Unpredictable URL](./laboratorios/access-control/LabPortSwingger2.md)**
+  * **Vulnerabilidade:** Exposição de rota administrativa imprevisível no código-fonte JavaScript no lado do cliente (*client-side leakage*).
+  * **Conceito:** Ineficácia do uso de "Segurança por Obscuridade" sem validação no servidor.
+
+* 📄 **[User Role Controlled by Request Parameter](./laboratorios/access-control/LabPortSwingger4.md)**
+  * **Vulnerabilidade:** Elevação de privilégio vertical via manipulação direta de atributo/cookie de controle (`Admin=true`).
+  * **Conceito:** Confiança indevida no lado do cliente (*client-side state management*) para controle de acesso.
+
+---
+
+### SQL Injection (Injeção de SQL)
+
+* 📄 **[SQL Injection Allowing Login Bypass](./laboratorios/sql-injection/LabPortSwingger3.md)**
+  * **Vulnerabilidade:** Bypass do mecanismo de autenticação via injeção de SQL no campo de nome de usuário (`username`).
+  * **Conceito:** Manipulação da lógica da consulta e anulação da verificação de senha usando comentários SQL (`administrator'--`).
+
+---
+
+## 📂 Estrutura das Pastas no Repositório
+
+Para facilitar a navegação, os relatórios estão organizados nas seguintes pastas:
+
+```text
+.
+├── README.md
+└── laboratorios/
+    ├── access-control/
+    │   ├── LabPortSwingger1.md
+    │   ├── LabPortSwingger2.md
+    │   └── LabPortSwingger4.md
+    └── sql-injection/
+        └── LabPortSwingger3.md
+
+---
+
 ## Estrutura Padrão dos Relatórios
 
 Cada relatório neste repositório segue a estrutura de documentação profissional utilizada em auditorias e testes de invasão:
